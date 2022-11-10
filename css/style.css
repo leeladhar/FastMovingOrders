@@ -421,12 +421,28 @@ a:focus {
 }
 
 .feature_section .box:hover {
-  background-color: #8547ca;
-  color: #fefdfc;
+  background-color: transparent;
+  color: #8547ca;
 }
 
 .feature_section .box:hover .head-box .img-box svg {
   fill: #fefdfc;
+}
+
+
+
+.feature_section .box .head-box a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #8c60bd;
+  color: #fefdfc;
+  border-radius: 0;
+  border: 1px solid #8c60bd;
+}
+
+.feature_section .box .head-box a:hover {
+  background-color: transparent;
+  color: #8c60bd;
 }
 
 .feature_section a {
@@ -551,7 +567,7 @@ a:focus {
 
 
 .download_section .main-img-box img {
-  
+
 }
 
 .about_section {
